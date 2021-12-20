@@ -1,20 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import NavBar from './components/NavBar/NavBar';
-import ItemListConteiner from './components/ItemListConteiner';
-
-
-function App() {
-  return (
-    <>
-    <div className="App">
-       
-      
+function App(){
+  return(
+    <div>
+    hola
     </div>
-    <NavBar/>
-    <ItemListConteiner saludos='hola soy el componente contenedor'/>
-  </>
   );
 }
-
 export default App;
